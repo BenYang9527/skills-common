@@ -66,6 +66,7 @@ npx skills@latest use YangZhaoWeblog/skills-common@td-logic-writer
 | [knowledge-illustrator](skills/shared/knowledge-illustrator/SKILL.md) | 把概念画成清晰的图。 |
 | [td-logic-writer](skills/shared/td-logic-writer/SKILL.md) | 把混乱材料写成精炼的判断系统型文章。 |
 | [td-logic-writing-flow](skills/shared/td-logic-writing-flow/SKILL.md) | 分流 Obsidian 写作任务，并执行骨架门与审查门。 |
+| [td-progress](skills/shared/td-progress/SKILL.md) | 回顾任务进展，逐项跟踪里程碑。 |
 | [tech-doc-writer](skills/shared/tech-doc-writer/SKILL.md) | 用结构化流程写技术文档。 |
 | [td-external-agent](skills/shared/td-external-agent/README.zh-CN.md) | 调用 Codex、Claude Code、CodeBuddy 或 DSH CLI 执行任务。 |
 
