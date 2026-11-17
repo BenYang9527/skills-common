@@ -63,7 +63,6 @@ Replace `td-logic-writer` with the target skill name. Add `-g` to install that s
 
 | Skill | What it does |
 | --- | --- |
-| [knowledge-illustrator](skills/shared/knowledge-illustrator/SKILL.md) | Turn concepts into clean diagrams and visual aids. |
 | [td-logic-writer](skills/shared/td-logic-writer/SKILL.md) | Write concise judgment-system articles from messy notes. |
 | [td-logic-writing-flow](skills/shared/td-logic-writing-flow/SKILL.md) | Route Obsidian writing tasks and enforce review gates. |
 | [td-progress](skills/shared/td-progress/SKILL.md) | Review task progress and track milestones. |

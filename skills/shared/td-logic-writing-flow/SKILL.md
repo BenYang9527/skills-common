@@ -1,6 +1,6 @@
 ---
 name: td-logic-writing-flow
-description: Route and control MyDigitalGarden/Obsidian writing tasks with a logic-first, concise, no-fluff workflow. Use when the user asks to write, rewrite, restructure, polish, de-AI, outline, review, or continue an Obsidian article or personal knowledge note, especially when deciding whether the task belongs to td-logic-writer, knowledge-illustrator, imagegen, tech-doc-writer, atomic notes, MOC, deep-learn/light-learn, DAG, or casual idea capture. It enforces stage control, skeleton-first gates for new/rewrite/large edits, visual QA for illustrated articles, a mandatory independent Review Gate for substantial/high-impact articles, and routing back to the right skill instead of blindly generating a full article.
+description: Route and control MyDigitalGarden/Obsidian writing tasks with a logic-first, concise, no-fluff workflow. Use when the user asks to write, rewrite, restructure, polish, de-AI, outline, review, or continue an Obsidian article or personal knowledge note, especially when deciding whether the task belongs to td-logic-writer, imagegen, tech-doc-writer, atomic notes, MOC, deep-learn/light-learn, DAG, or casual idea capture. It enforces stage control, skeleton-first gates for new/rewrite/large edits, visual QA for illustrated articles, a mandatory independent Review Gate for substantial/high-impact articles, and routing back to the right skill instead of blindly generating a full article.
 ---
 
 # TD Logic Writing Flow
@@ -57,7 +57,7 @@ description: Route and control MyDigitalGarden/Obsidian writing tasks with a log
 | 正式方案、报告、调研、测试报告、操作手册 | **tech-doc-writer** |
 | 原子笔记、MOC、学习链路、普通灵感 | 对应专用链路 |
 | 正式技术文档的状态、时序、ER 图 | **tech-doc-writer** |
-| 个人文章的精确关系、流程、层级、边界、映射图 | **knowledge-illustrator** |
+| 个人文章的精确关系、流程、层级、边界、映射图 | 使用可编辑的图表格式 |
 | 封面、场景、插画等位图资产 | **imagegen** |
 
 ## 工作规则
@@ -75,7 +75,7 @@ description: Route and control MyDigitalGarden/Obsidian writing tasks with a log
 
 ## 图与审查
 
-正式技术文档的状态、时序和 ER 图由 **tech-doc-writer** 使用 Mermaid、DBML 等可编辑格式。需要自定义布局或文章配图时，调用 **knowledge-illustrator**。精确关系不用生成式位图。
+正式技术文档的状态、时序和 ER 图由 **tech-doc-writer** 使用 Mermaid、DBML 等可编辑格式。文章中的精确关系使用可编辑的图表格式，不用生成式位图。
 
 个人文章的新写、重写、大改、高影响或带图任务，必须读取 [review-gate.md](references/review-gate.md)，先准备最小 Review 包并启动独立 reviewer；没有独立 reviewer 时必须阻塞。带图再读 [visual-checklist.md](references/visual-checklist.md)。正式技术文档只使用 **tech-doc-writer** 的 Review Gate。小改仍需自审。
 
