@@ -1,0 +1,4 @@
+interface:
+  display_name: "td-challenge"
+policy:
+  allow_implicit_invocation: false

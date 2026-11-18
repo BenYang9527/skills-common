@@ -63,18 +63,16 @@ Replace `td-logic-writer` with the target skill name. Add `-g` to install that s
 
 | Skill | What it does |
 | --- | --- |
+| [td-challenge](skills/shared/td-challenge/SKILL.md) | Test an existing judgment or plan against the strongest objection and the evidence that could change it. |
+| [td-cross-domain](skills/shared/td-cross-domain/SKILL.md) | Compare approaches from different fields and choose the best fit for the current problem. |
+| [td-first-principles](skills/shared/td-first-principles/SKILL.md) | Trace a situation to reliable fundamentals before setting goals or choosing methods. |
 | [td-logic-writer](skills/shared/td-logic-writer/SKILL.md) | Write concise judgment-system articles from messy notes. |
 | [td-logic-writing-flow](skills/shared/td-logic-writing-flow/SKILL.md) | Route Obsidian writing tasks and enforce review gates. |
 | [td-progress](skills/shared/td-progress/SKILL.md) | Review task progress and track milestones. |
+| [td-wrong-way](skills/shared/td-wrong-way/SKILL.md) | Flag when a question, judgment, or action misses what matters, and reframe the problem when needed. |
 | [tech-doc-writer](skills/shared/tech-doc-writer/SKILL.md) | Draft technical docs with a structured pipeline. |
 | [td-external-agent](skills/shared/td-external-agent/README.md) | Delegate tasks to Codex, Claude Code, CodeBuddy or DSH CLI. |
 
-### Deprecated
-
-| Skill | Status |
-| --- | --- |
-| [razor](skills/deprecated/razor/SKILL.md) | Deprecated; retained for reference. |
-
 ## Layout
 
-**skills/shared/** contains maintained skills; **skills/deprecated/** retains deprecated skills. **skills-common** covers shared capabilities, [skills-develop](../skills-develop/README.md) covers development workflows, and [skills-learning](../skills-learning/README.md) covers learning workflows.
+**skills/shared/** contains maintained skills. **skills-common** covers shared capabilities, [skills-develop](../skills-develop/README.md) covers development workflows, and [skills-learning](../skills-learning/README.md) covers learning workflows.

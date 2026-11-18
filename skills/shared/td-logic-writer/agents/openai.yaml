@@ -1,4 +1,4 @@
 interface:
-  display_name: "TD Logic Writer"
+  display_name: "td-logic-writer"
   short_description: "Write concise evidence-aware judgment articles"
   default_prompt: "Use $td-logic-writer to turn these notes into a concise, evidence-aware judgment article."
